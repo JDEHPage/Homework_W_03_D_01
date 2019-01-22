@@ -62,7 +62,7 @@ WHERE name = 'John Smith';
 
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 
-INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:50');
+UPDATE movies SET (show_time) = (00:50) WHERE (title) = 'Guardians of the Galaxy 2';
 
 -- DELETE FROM movies WHERE title LIKE 'A%';
 -- DELETE FROM movies WHERE id BETWEEN 17 AND 19;
